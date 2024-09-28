@@ -46,6 +46,7 @@ const changeLanguage = async language => {
         textToChange.innerHTML = texts[section][value];
     }
 }
+
 flagsElement.addEventListener('click', (e) => {
     changeLanguage(e.target.parentElement.dataset.language);
 })
