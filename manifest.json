@@ -1,0 +1,21 @@
+{
+    "name": "Melissa Rangel | Desarrolladora Web y Movil",
+    "short_name": "Portafolio Melissa",
+    "description": "Portafolio personal de Melissa Rangel como desarrolladora web y móvil.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#333333",
+    "icons": [
+        {
+            "src": "./assets/images/favicon.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/images/icono_512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
