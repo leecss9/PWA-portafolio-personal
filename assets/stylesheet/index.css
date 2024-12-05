@@ -7,10 +7,10 @@
 :root {
     --white: #FFFFFF;
     --light-grey: #D9D9D9;
-    --beaver: #A78976;
+    --beaver: #ffffff;
     --black: #141414;
-    --eerie-black: #1F1F1F;
-    --jet: #292929;
+    --eerie-black: #3d0a0a;
+    --jet: #000000;
 }
 
 * {
@@ -40,7 +40,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 ::selection {
-    background-color: #776254;
+    background-color: #be4c00;
 }
 
 /* Header */
@@ -685,17 +685,13 @@ img.logo-sena {
 }
 
 .btn_demo {
-    padding: .9rem 0;
-    border: none;
-    background-color: var(--beaver);
-    color: var(--eerie-black);
+    
+    display: none !important;
 }
 
 .btn_repo {
-    padding: .8rem 0;
-    background: none;
-    color: var(--beaver);
-    border: 1px solid var(--beaver);
+ 
+    display: none !important;
 }
 
 .btn_demo img {
@@ -707,11 +703,14 @@ img.logo-sena {
     background: #776254;
     box-shadow: 0px 13px 33px -14px rgba(0,0,0,0.75);
     transition: all .4s ease;
+    
 }
 
 .btn_repo img {
     width: 2rem;
     margin-right: .8rem;
+  
+
 }
 
 .container_btn--proyectos .btn_repo:hover {
@@ -972,3 +971,26 @@ footer {
         height: 6rem;
     }
 }
+
+.nav_menu {
+    display: flex; /* Activa un contenedor flexible */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    gap: 20px; /* Opcional: separa los elementos */
+  }
+  
+  .nav_menu a {
+    text-decoration: none; /* Quita el subrayado */
+    color: white; /* Cambia al color deseado */
+    font-size: 18px; /* Ajusta el tamaño del texto */
+    padding: 10px 15px; /* Agrega espaciado interno */
+  }
+  
+  .nav_menu a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Efecto al pasar el ratón */
+    border-radius: 5px; /* Esquinas redondeadas */
+  }
+  nav {
+    width: 100%; /* Asegura que la barra ocupe el ancho completo */
+  }
+  

@@ -1,4 +1,4 @@
-const CACHE_NAME = "v1_cache_portafolio_melissa";
+const CACHE_NAME = "v1_cache_portafolio_cdvc";
 const urlsToCache = [
     "./", // Cachea la raíz de la aplicación
     "./index.html",
